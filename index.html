@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random quote project</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="row">
+  <div class="col s4 grey darken-3"><button class="btn-large black white-text">Movies</button></div>
+  <div class="col s4 grey darken-2"><button class="btn-large black white-text" onclick="getQuote('')">Any</button></div>
+  <div class="col s4 grey darken-3"><button class="btn-large black white-text" onclick="getQuote('famous')">Famous</button></div>
+  <div class="row col s12 flow-text grey darken-4 white-text">
+    <q class="quote col s8"><h4>Choose the quote type</h4>
+      <div class="divider" style="margin:5% auto;width:75%;"></div>
+<a class="twitter-share-button" data-size="large"></a>
+    </q> 
+    <div class="author col s2"></div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

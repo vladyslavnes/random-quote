@@ -1,0 +1,12 @@
+.col.s4, .col.s12 {
+  text-align: center;
+}
+.col.s4, .col.s8 {
+  padding: 20vh;
+}
+
+.col.s2 {
+  padding: 15% 2.5% 0 2.5%;
+}
+
+q:after,q:before {content:''}
